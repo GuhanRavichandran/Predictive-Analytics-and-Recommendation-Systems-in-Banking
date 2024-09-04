@@ -9,3 +9,18 @@ pip install pandas
 pip install seaborn
 pip install sklearn
 
+Kindly import below library
+import streamlit as st
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler,OneHotEncoder
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, roc_auc_score, accuracy_score, precision_score, recall_score
+from sklearn.compose import ColumnTransformer
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+
